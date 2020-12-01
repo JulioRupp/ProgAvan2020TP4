@@ -1,0 +1,38 @@
+.actor-card{
+    overflow: hidden;
+    margin-right: 15px;
+    height: 270px;
+    width: 140px;
+    min-width: 140px;
+    border-radius: 10px;
+    border: .1px solid rgba(255, 255, 255, 0.219)
+}
+
+.actor_img{
+    height: 64%;
+    width: 100%
+}
+
+
+.actor-card_texts{
+    padding-left: 6px;
+    padding-right: 6px
+}
+
+.actor_name,
+.actor_character{
+    margin-top: 6px;
+    margin-bottom: 0
+}
+
+.actor_name{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.3em
+}
+
+.actor_character{
+    font-size: .9em;
+    font-style: oblique;
+    color: #7d8081
+}

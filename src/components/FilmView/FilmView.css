@@ -1,0 +1,147 @@
+.film-view {
+    border-top: 2px solid #7CFC00;
+    border-bottom: 2px solid #7CFC00; /* Borde del cartel de la peli */
+    margin-top: 80px;
+    width: 100%;
+    height: 570px;
+    position: relative
+}
+
+.film_bg-img-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden
+}
+
+.film_bg-img {
+    height: 150%;
+    filter: blur(2px) opacity(0.2)
+}
+
+.film-content {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 85vmax;
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 40px 30px 40px;
+    display: flex
+}
+
+.poster-wrapper,
+.header-poster-wrapper {
+    height: 100%
+}
+
+.poster-wrapper {
+    box-shadow: -2px 2px 8px 1px rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px
+}
+
+.poster {
+    overflow: hidden;
+    height: 90%
+}
+
+.poster_img {
+    width: 100%
+}
+
+.poster-bottom {
+    height: 10%;
+    width: 100%;
+    background-color: var(--green1)
+}
+
+.header-poster-wrapper {
+    width: calc(100% - 320px);
+    padding-left: 40px
+}
+
+.header-poster {
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.title-content {
+    margin-top: 0px;
+    height: 100px
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1em;
+    margin-bottom: 5px
+}
+
+.facts {
+    margin-top: 0;
+    font-size: 1em
+}
+
+.chart-content {
+    height: 100px;
+    display: flex;
+    align-items: center
+}
+
+.score {
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    background-color: #08043d; /*Color de la puntuación */
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 5px rgba(255, 255, 255, 0.425)
+}
+
+.score-text {
+    margin-left: 20px;
+    width: 50px;
+    font-size: 1.2em
+}
+
+.header_info {
+    height: 240px
+}
+
+.tagname,
+.info-title,
+.overview {
+    margin: 10px auto
+}
+
+.tagname {
+    font-weight: 600;
+    font-size: 1em;
+    font-style: italic;
+    color: #dfdfdf9c
+}
+
+.info-title {
+    margin-top: 20px;
+    font-size: 1.4em
+}
+
+.overview {
+    margin-bottom: 40px;
+    font-weight: 400
+}
+
+.film_genres-title {
+    font-weight: 600;
+    margin-bottom: 0
+}
+
+.film_genres {
+    margin-top: 5px;
+    font-size: 0.9em
+}

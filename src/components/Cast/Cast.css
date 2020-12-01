@@ -1,0 +1,32 @@
+.cast{
+    margin: 50px auto;
+    padding-left: 15px;
+    height: 370px;
+    width: 75%
+}
+
+.cast_title{
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+
+.cast_actors{
+    padding-bottom: 15px;
+    display: flex;
+    align-content: center;
+    overflow-x: auto
+}
+
+.cast_actors::-webkit-scrollbar{
+    background-color: #7CFC00;
+    color: #aba499
+}
+
+.cast_actors::-webkit-scrollbar-corner{
+    background-color: #181a1b
+}
+
+.cast_actors::-webkit-scrollbar-thumb{
+    background-color: #454a4d
+}

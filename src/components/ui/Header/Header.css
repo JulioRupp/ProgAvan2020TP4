@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    background: linear-gradient(180deg, var(--green2) 0%, var(--green1) 100%);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between
+}
+
+.logo{
+    padding-left: 3%
+}

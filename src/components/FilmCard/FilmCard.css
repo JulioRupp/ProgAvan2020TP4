@@ -1,0 +1,38 @@
+.film-card {
+    box-shadow: 2px -2px 10px 1px rgba(255, 255, 255, 0.432);
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 650ms
+}
+
+.film-card:hover {
+    box-shadow: 0 0 8px 10px rgba(255, 255, 255, 0.507)
+}
+
+.film_img {
+    width: 100%
+}
+
+.film_texts {
+    padding-top: 5px;
+    padding-left: 10px
+}
+
+.film_title,
+.film_release-date {
+    margin: 10px;
+    font-family: Helvetica, sans-serif
+}
+
+.film_title {
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1em
+}
+
+.film_release-date {
+    font-family: Helvetica, sans-serif;
+    font-size: .9em;
+    color: #535353; /* Letras de las tarjetas*/
+    font-weight: 600
+}
